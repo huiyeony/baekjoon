@@ -1,6 +1,6 @@
 import sys
 
-N = int(sys.stdin.readline())
+N = int(sys.stdin.readline())# input() 보다 빠름 
 data = []
 for _ in range(N):
     data.append(int(sys.stdin.readline()))
