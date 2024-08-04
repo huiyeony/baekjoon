@@ -20,6 +20,6 @@ for i in range(n):
         heapq.heappush( rightHeap, l_value )
     answer.append( -leftHeap[0] )
         
-print(" -------- ")
+
 for i in range(n):
     print(answer[i])
